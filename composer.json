@@ -1,0 +1,12 @@
+{
+    "name": "drupal/protected_pages",
+    "description": "Protected Pages modules allows the administrator to secure any page or private file in your website by password.",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/project/protected_pages",
+    "license": "GPL-2.0-or-later",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/protected_pages",
+        "source": "https://git.drupalcode.org/project/protected_pages"
+    },
+    "require": {}
+}

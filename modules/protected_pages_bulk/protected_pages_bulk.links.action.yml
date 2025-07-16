@@ -1,0 +1,5 @@
+protected_pages_bulk_add:
+  route_name: protected_pages_bulk.form
+  title: 'Bulk Add Protected Pages'
+  appears_on:
+    - protected_pages_list

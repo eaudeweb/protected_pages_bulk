@@ -1,0 +1,7 @@
+name: 'Protected Pages Bulk'
+type: module
+description: 'Add multiple protected pages at once using same password.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:protected_pages

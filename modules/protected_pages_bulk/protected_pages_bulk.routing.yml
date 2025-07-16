@@ -1,0 +1,7 @@
+protected_pages_bulk.form:
+  path: '/admin/config/system/protected_pages/bulk-add'
+  defaults:
+    _form: '\Drupal\protected_pages_bulk\Form\BulkProtectedPagesForm'
+    _title: 'Bulk Add Protected Pages'
+  requirements:
+    _permission: 'administer protected pages'

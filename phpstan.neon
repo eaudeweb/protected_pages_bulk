@@ -1,0 +1,16 @@
+includes:
+  - phar://phpstan.phar/conf/bleedingEdge.neon
+
+parameters:
+  level: 0
+  paths:
+    - .
+  ignoreErrors:
+    # new static() is a common pattern in Drupal core and contrib.
+    # https://www.drupal.org/docs/develop/development-tools/phpstan/handling-unsafe-usage-of-new-static
+    -
+      message: "#^Unsafe usage of new static#"
+    -
+      message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+      count: 2
+      path: src/EventSubscriber/ProtectedPagesSubscriber.php
