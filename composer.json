@@ -1,0 +1,13 @@
+{
+    "name": "eaudeweb/protected_pages_bulk",
+    "description": "Add multiple protected pages at once using same password",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "scovitin-vsevolod",
+            "email": "vsevolod.scovitin@eaudeweb.ro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
