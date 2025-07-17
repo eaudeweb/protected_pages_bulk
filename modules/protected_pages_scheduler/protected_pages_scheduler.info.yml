@@ -1,7 +1,0 @@
-name: 'Protected pages scheduler'
-type: module
-description: 'protected pages scheduler.'
-core_version_requirement: ^10
-
-dependencies:
-  - drupal:protected_pages
