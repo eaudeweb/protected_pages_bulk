@@ -119,7 +119,7 @@ class BulkProtectedPagesForm extends FormBase {
       '#required' => TRUE,
     ];
 
-    $form['rules_list']['passwords'] = [
+    $form['rules_list']['password'] = [
       '#type' => 'password_confirm',
       '#description' => $this->t('Enter one or more passwords separated by commas.'),
       '#required' => TRUE,
